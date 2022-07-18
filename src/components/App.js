@@ -7,7 +7,6 @@ import Loader from './Loader/loader';
 import { Modal } from './Modal/modal';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { Form } from 'formik';
 
 export const App = () => {
   const [search, setSearch] = useState('');
